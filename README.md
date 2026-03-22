@@ -14,7 +14,7 @@ Content page (content_ST3.html)
 
 🛠️ Technologies Used
 HTML5
-CSS3
+CSS
 JavaScript
 
 📌 Note
