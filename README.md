@@ -11,9 +11,11 @@ I was responsible for designing and developing:
 Feedback page (feedback.html)
 Team page (team.html)
 Content page (content_ST3.html)
+
 🛠️ Technologies Used
 HTML5
 CSS3
-📌 Note
+JavaScript
 
+📌 Note
 This is a group project, and other pages in this repository were developed by my team members.
