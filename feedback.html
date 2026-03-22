@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/feedback.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <div class="logo1">
+                <img src="images/lgo1.jpg" alt="logo">
+                    <div class="text1">
+                        <h1>EcoVerse</h1>
+                        <p><em>Life flourishes where land thrives</em></p>
+                    </div>
+            </div>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_self">Home</a></li>
+                <li><a href="volunteer.html" target="_self">Volunteer</a></li>
+                <li><a href="table.html" target="_self">Table</a></li>
+                <li><a href="profile.html" target="_self">Profile</a></li>
+                <li><a href="feedback.html" target="_self" class="active">Feedback</a></li>
+                <li><a href="sitemap.html" target="_self">Sitemap</a></li>
+                <li><a href="team.html" target="_self">Team</a></li>
+            </ul>
+        </nav>
+        
+<main class="f-main">
+    <div class="container">
+        <h1 class="title">Feedback Form</h1>
+        <form class="feedback-f" action="#" method="post" enctype="multipart/form-data">
+
+        <fieldset class="form-section">
+            <legend class="section-title">Personal Details</legend>
+
+            <div class="f-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" class="input-field" placeholder="Enter fullname here" required>
+
+            </div>
+
+            <div class="f-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="input-field" placeholder="Enter Email here" required>
+            </div>
+
+            <div class="f-group">
+                <label for="phone">Telephone:</label>
+                <input type="tel" id="phone" name="phone" class="input-field" pattern="[0-9]{10}" required>
+
+            </div>
+
+            <div class="f-gorup">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" class="input-field" rows="3" required></textarea> 
+            </div>
+
+            <div class="f-group">
+                <label for="datalist">Country:</label>
+                <input list="countries" name="country" id="datalist" class="input-field">
+                <datalist id="countries">
+                    <option value="Sri lanka">
+                    <option value="USA">
+                    <option value="India">
+                    <option value="Canada">
+                    <option value="Korea">
+                    <option value="UK">
+                    <option value="South Africa">
+                    <option value="Australia">
+                     
+                </datalist>  
+             </div>
+        </fieldset>
+        
+        <fieldset class="form-section">
+             <legend class="section-title">Feedback Details</legend>
+
+             <div class="f-group">
+                <label for="comment">Comment or Message (max 300 chars):</label>
+                <textarea id="comment" name="comment" class="input-field" maxlength="300" rows="4"></textarea>
+                <p id="charcount" class="char-count">300 characters remaining</p>
+             </div>
+
+             
+
+             <div class="f-group">
+                <label for="popup">How did you hear about us?</label>
+                <select id="popup" name="popup" class="input-field">
+                    <option>Website</option>
+                    <option>Social Media</option>
+                    <option>Friends</option>
+                </select>
+             </div>
+
+             <div class="f-group">
+                <label>Activities you are interested in:</label><br>
+                <input type="checkbox" name="activity" value="TreePlanting">Tree Planting<br>
+                <input type="checkbox" name="activity" value="AnimalRescue"> Animal Rescue
+    
+             </div>
+
+             <div class="f-group">
+                <label>Would you recommend us?</label><br>
+                <input type="radio" name="recommend" value="yes">Yes
+                <input type="radio" name="recommend" value="No">No
+
+             </div>
+
+             
+
+             <div class="f-group">
+                <label for="dt">Date & Time:</label>
+                <input type="datetime-local" id="dt" name="dt" class="input-field">
+             </div>
+
+             <div class="f-group">
+                <label for="upload">Upload (PDF or image):</label>
+                <input type="file" id="upload" name="upload" class="input-field">
+             </div>
+
+             <div class="f-group">
+                <label>Rate our site:</label><br>
+                <div class="emoji-rating">
+                    <input type="radio" id="rate5" name="rating" value="5">
+                    <label for="rate5" title="Excellent">😍</label>
+
+                    <input type="radio" id="rate4" name="rating" value="4">
+                    <label for="rate4" title="Great">😊</label>
+
+                    <input type="radio" id="rate3" name="rating" value="3">
+                    <label for="rate3" title="Well">🙂</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2">
+                    <label for="rate2" title="Poor">☹️</label>
+
+                    <input type="radio" id="rate1" name="rating" value="1">
+                    <label for="rate1" title="Terrible">😡</label>
+                </div>
+             </div>
+        </fieldset>
+
+        <div class="f-buttons">
+            <button type="submit" class="btn-submit">Submit Feeback</button>
+            <button type="reset" class="btn-reset">Cancel</button>
+        </div>
+
+      </form>
+    </div>
+</main>
+
+        
+        <footer>
+            <p>&copy; 2025 EcoVerse&nbsp; |
+                <a href="pageEditor_ST1.html" target="_self">Student 1</a> |
+                <a href="pageEditor_ST2.html" target="_self">Student 2</a> |
+                <a href="pageEditor_ST3.html" target="_self">Student 3</a> |
+                <a href="pageEditor_ST4.html" target="_self">Student 4</a> 
+            </p>
+            <p>Responsive & Accessible | Aligned with SDG 15 goals</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

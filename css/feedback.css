@@ -1,0 +1,115 @@
+body{
+    background-color: #f0f4f1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.f-main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-image: url("../images/feedbackBG.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(136, 177, 91, 0.8);
+    
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    color: #3e4a34;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.f-group {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f2f4ef;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 0 #111010;
+}
+
+label {
+    font-weight: 600;
+    display:block;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.input-field,
+textarea,
+select {
+    width: 70%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid ;
+    background-color: #f5f5f5;
+    
+}
+
+
+.char-count {
+    font-size: small;
+    color: #111010;
+    margin-top: 5px;
+}
+
+.emoji-rating {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+.f-buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn-submit,
+.btn-reset {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.btn-submit {
+    background-color: #6a4c93;
+    color: white;
+
+}
+
+.btn-reset {
+    background-color: #adb5bd;
+    color: white;
+}
