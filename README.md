@@ -1,2 +1,19 @@
-# ecoverse-website
-EcoVerse is a multi-page website developed for a Web Design &amp; Development coursework based on UN SDG 15 (Life on Land). Includes interactive feedback form, team page, and content pages using HTML &amp; CSS.
+🌱 EcoVerse – SDG 15 Website
+
+This project was developed as part of a group coursework for Web Design & Development (University of Westminster).
+
+The website focuses on United Nations SDG 15: Life on Land, promoting biodiversity and environmental awareness through a multi-page web platform.
+
+👩‍💻 My Contribution (Student 3)
+
+I was responsible for designing and developing:
+
+Feedback page (feedback.html)
+Team page (team.html)
+Content page (content_ST3.html)
+🛠️ Technologies Used
+HTML5
+CSS3
+📌 Note
+
+This is a group project, and other pages in this repository were developed by my team members.
